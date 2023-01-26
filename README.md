@@ -1,2 +1,2 @@
-vlad.github.io
+vlad-vlad.github.io
 coursera training
