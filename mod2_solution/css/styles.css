@@ -10,19 +10,17 @@ h1 {
 }
   
 div#container {
-  background-color: #00FFFF;
+  background-color:gray;
   position: relative;
   top: 60px;
 }
 p {
   border: 1px solid black;
   background-color: gray;
-  width: 90%;
-  height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  color: black;
   text-align:right ;
 
 }
@@ -35,6 +33,7 @@ p1 {
   width: 90px;
   height: 30px;
   text-align:center;
+  
 }
 .block2,
 p2 {
@@ -45,6 +44,7 @@ p2 {
   width: 90px;
   height: 30px;
   text-align:center;
+  color: white;
 }
 .block3,
 p3 {
@@ -59,31 +59,29 @@ p3 {
 #p1 {
   
   position:relative;
-  color: black;
-
+  
+  
   
 }
 #p2 {
   position: relative;
-  
+  background-color: gray;
+
 }
 #p3 {
  
   position: relative;
-  color: black;
+ 
 
 }
-#box {
-  background-color: blue;
-  padding: 10px;
-  border: 5px solid black;
-  width: 300px;
-  height: 50px;
-  margin-top: 5px;
-  overflow: auto;
+
+
+
 }
+
 #content {
   
+  text-align: left;
   
 }
 
