@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 h1 {
   margin-top: 15px;
@@ -21,10 +22,10 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: black;
-  text-align:right ;
+  text-align: right;
 
 }
-.block,
+.block1,
 p1 {
   display: inline-block;
   border: 2px solid black;
@@ -33,6 +34,7 @@ p1 {
   width: 90px;
   height: 30px;
   text-align:center;
+ 
   
 }
 .block2,
@@ -45,6 +47,7 @@ p2 {
   height: 30px;
   text-align:center;
   color: white;
+ 
 }
 .block3,
 p3 {
@@ -55,32 +58,16 @@ p3 {
   width: 90px;
   height:30px;
   text-align:center;
-}
-#p1 {
   
-  position:relative;
-  
-  
-  
-}
-#p2 {
-  position: relative;
- 
-}
-#p3 {
- 
-  position: relative;
- 
-
 }
 
+.content1,
+P4  {
 
-
-}p11 {
-  
-  text-align: left;
-  
+  text-align: right;
 }
+
+  
 
 /* Simple Responsive Framework. */
 .row {
@@ -102,7 +89,7 @@ p3 {
   .col-lg-3 {
     width: 29%;
     margin-left: 25px;
-    margin-right:20px;
+    margin-right:auto;
     margin-top: 5%;
 
   }
